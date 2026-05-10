@@ -1,11 +1,7 @@
-/* ============================================================
-   MPK SMK NEGERI 1 BANTUL — SCRIPT.JS
-   Loading · Navbar · Scroll · Animations · Counters
-   ============================================================ */
 
 'use strict';
 
-/* ======================== DOM READY ======================== */
+/*DOM READY  */
 document.addEventListener('DOMContentLoaded', () => {
   initLoader();
   initNavbar();
@@ -18,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeroParallax();
 });
 
-/* ======================== LOADER ======================== */
+/*LOADER */
 function initLoader() {
   const loader = document.getElementById('loader');
   const loaderBar = document.querySelector('.loader-bar');
@@ -58,7 +54,7 @@ function triggerHeroReveal() {
   });
 }
 
-/* ======================== NAVBAR ======================== */
+/*  NAVBAR */
 function initNavbar() {
   const navbar = document.getElementById('navbar');
   const navLinks = document.querySelectorAll('.nav-link');
@@ -108,7 +104,7 @@ function updateActiveNavLink(navLinks, sections) {
   });
 }
 
-/* ======================== MOBILE MENU ======================== */
+/* MOBILE MENU  */
 function initMobileMenu() {
   const hamburger = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobileMenu');
@@ -162,7 +158,7 @@ function animateHamburger(open) {
   }
 }
 
-/* ======================== SMOOTH SCROLL ======================== */
+/* SMOOTH SCROLL */
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
@@ -185,7 +181,7 @@ function initSmoothScroll() {
   });
 }
 
-/* ======================== REVEAL ON SCROLL ======================== */
+/*  REVEAL ON SCROLL */
 function initRevealOnScroll() {
   const revealEls = document.querySelectorAll('.reveal');
 
@@ -212,7 +208,7 @@ function initRevealOnScroll() {
   nonHeroReveal.forEach(el => observer.observe(el));
 }
 
-/* ======================== COUNTER ANIMATION ======================== */
+/* COUNTER ANIMATION */
 function initCounters() {
   const counters = document.querySelectorAll('.stat-num');
   if (!counters.length) return;
@@ -260,7 +256,7 @@ function animateCounter(el) {
   requestAnimationFrame(update);
 }
 
-/* ======================== BACK TO TOP ======================== */
+/*BACK TO TOP */
 function initBackToTop() {
   const btn = document.getElementById('backToTop');
   if (!btn) return;
@@ -278,7 +274,7 @@ function initBackToTop() {
   });
 }
 
-/* ======================== CONTACT FORM ======================== */
+/* CONTACT FORM*/
 function initForm() {
   const form = document.getElementById('kontakForm');
   if (!form) return;
@@ -315,7 +311,7 @@ function initForm() {
   });
 }
 
-/* ======================== HERO PARALLAX ======================== */
+/*HERO PARALLAX */
 function initHeroParallax() {
   const hero = document.querySelector('.hero');
   const grid = document.querySelector('.hero-grid-overlay');
@@ -340,7 +336,7 @@ function initHeroParallax() {
   }, { passive: true });
 }
 
-/* ======================== GALLERY HOVER ======================== */
+/*GALLERY HOVER */
 (function initGalleryHover() {
   document.addEventListener('DOMContentLoaded', () => {
     const items = document.querySelectorAll('.galeri-item');
@@ -361,7 +357,7 @@ function initHeroParallax() {
   });
 })();
 
-/* ======================== KOMISI HOVER ======================== */
+/*KOMISI HOVER */
 (function initKomisiHover() {
   document.addEventListener('DOMContentLoaded', () => {
     const divItems = document.querySelectorAll('.komisi-div-item');
@@ -384,7 +380,7 @@ function initHeroParallax() {
   });
 })();
 
-/* ======================== SCROLL PROGRESS ======================== */
+/* SCROLL PROGRESS  */
 (function initScrollProgress() {
   // Subtle page scroll progress on navbar bottom
   const navbar = document.getElementById('navbar');
@@ -411,7 +407,7 @@ function initHeroParallax() {
   }, { passive: true });
 })();
 
-/* ======================== CURSOR GLOW EFFECT ======================== */
+/* CURSOR GLOW EFFECT */
 (function initCursorGlow() {
   // Only on desktop
   if (window.innerWidth < 1024) return;
@@ -486,7 +482,7 @@ function initHeroParallax() {
   });
 })();
 
-/* ======================== TYPED EFFECT FOR HERO ======================== */
+/* TYPED EFFECT FOR HERO*/
 (function initTypedEffect() {
   // Subtle animated underline scan on hero title words
   const heroTitle = document.querySelector('.hero-title');
@@ -514,11 +510,11 @@ function initHeroParallax() {
   }, 3000);
 })();
 
-/* ======================== SECTION DIVIDERS ======================== */
+/* SECTION DIVIDERS*/
 (function addDividers() {
   // Handled by CSS ::before pseudo-elements
 })();
 
-/* ======================== INIT COMPLETE ======================== */
+/*INIT COMPLETE*/
 console.log('%c MPK SMKN 1 BANTUL ', 'background:#f8f8f8; color:#080808; font-family:monospace; font-size:14px; font-weight:bold; padding:8px 16px; letter-spacing:4px;');
 console.log('%c Website loaded successfully · Aktif · Kritis · Berintegritas ', 'color:#888; font-family:monospace; font-size:10px; letter-spacing:2px;');
