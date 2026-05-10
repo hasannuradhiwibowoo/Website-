@@ -279,7 +279,9 @@ function initForm() {
   const form = document.getElementById('kontakForm');
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzGAeRcTkGbBuLhuwLRP8rM-wvWC33jVTnIegLgQuHLDBFUdPdkDqFNlawtJ9JO-T69/exec';
+
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const btn = form.querySelector('.form-submit');
@@ -289,8 +291,23 @@ function initForm() {
     btn.style.opacity = '0.7';
     btn.disabled = true;
 
-    // Simulate send
-    setTimeout(() => {
+    // Ambil data form
+    const nama = form.querySelector('input[type="text"]').value;
+    const kelas = form.querySelectorAll('input[type="text"]')[1].value;
+    const email = form.querySelector('input[type="email"]').value;
+    const pesan = form.querySelector('textarea').value;
+
+    try {
+      await fetch(scriptURL, {
+        method: 'POST',
+        body: JSON.stringify({
+          nama: nama,
+          kelas: kelas,
+          email: email,
+          aspirasi: pesan
+        })
+      });
+
       btn.innerHTML = 'Terkirim! <i class="ri-check-line"></i>';
       btn.style.opacity = '1';
       btn.style.background = '#1a1a1a';
@@ -307,7 +324,19 @@ function initForm() {
         btn.style.border = '';
         btn.style.opacity = '';
       }, 3000);
-    }, 1500);
+
+    } catch (error) {
+      console.error(error);
+
+      btn.innerHTML = 'Gagal Kirim!';
+      btn.style.opacity = '1';
+
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+        btn.style.opacity = '';
+      }, 3000);
+    }
   });
 }
 
