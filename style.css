@@ -365,7 +365,18 @@ ul { list-style: none; }
 }
 
 .btn-primary:hover::before { transform: translateX(0); }
-.btn-primary:hover { color: var(--white); border-color: var(--white); }
+.btn-primary:hover,
+.btn-primary:hover span,
+.btn-primary:hover i,
+.btn-primary:active,
+.btn-primary:active span,
+.btn-primary:active i,
+.btn-primary:focus-visible,
+.btn-primary:focus-visible span,
+.btn-primary:focus-visible i {
+  color: var(--white);
+  border-color: var(--white);
+}
 .btn-primary span, .btn-primary i { position: relative; z-index: 1; }
 
 .btn-ghost {
