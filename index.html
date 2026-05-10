@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MPK SMK Negeri 1 Bantul</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ======================== LOADING SCREEN ======================== -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">
+        <!-- GANTI LOGO LOADER DISINI -->
+        <span class="loader-text-mpk">MPK</span>
+      </div>
+      <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+      <p class="loader-sub">SMKN 1 BANTUL — MEMUAT...</p>
+    </div>
+  </div>
+
+  <!-- ======================== NAVBAR ======================== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#beranda" class="nav-logo">
+        <!-- GANTI LOGO NAVBAR DISINI -->
+        <img src="https://i.ibb.co.com/QjbQJP2J/download-11.png" alt="Logo MPK" class="logo-img">
+        <span class="logo-text">MPK</span>
+        <span class="logo-sub">SMKN 1 BANTUL</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#beranda" class="nav-link">Beranda</a></li>
+        <li><a href="#tentang" class="nav-link">Tentang</a></li>
+        <li><a href="#visi-misi" class="nav-link">Visi &amp; Misi</a></li>
+        <li><a href="#struktur" class="nav-link">Struktur</a></li>
+        <li><a href="#program" class="nav-link">Program Kerja</a></li>
+        <li><a href="#galeri" class="nav-link">Galeri</a></li>
+        <li><a href="#kontak" class="nav-link">Kontak</a></li>
+      </ul>
+
+         <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose"><i class="ri-close-line"></i></button>
+    <ul>
+      <li><a href="#beranda" class="mobile-link">Beranda</a></li>
+      <li><a href="#tentang" class="mobile-link">Tentang</a></li>
+      <li><a href="#visi-misi" class="mobile-link">Visi &amp; Misi</a></li>
+      <li><a href="#struktur" class="mobile-link">Struktur</a></li>
+      <li><a href="#program" class="mobile-link">Program Kerja</a></li>
+      <li><a href="#galeri" class="mobile-link">Galeri</a></li>
+      <li><a href="#kontak" class="mobile-link">Kontak</a></li>
+    </ul>
+  </div>
+
+  <!-- ======================== HERO SECTION ======================== -->
+  <section id="beranda" class="hero">
+    <!-- GANTI FOTO HERO DISINI -->
+    <!-- Untuk mengganti background hero, ganti file images/hero.jpg -->
+    <img src="https://i.ibb.co.com/0yshbswy/Logo-mpk.jpg" alt="Hero Background" class="hero-bg-img"> 
+    <div class="hero-bg">
+      <div class="hero-grid-overlay"></div>
+      <div class="hero-noise"></div>
+      <div class="hero-vignette"></div>
+    </div>
+
+    <!-- Floating decorative elements -->
+    <div class="hero-float float-1"></div>
+    <div class="hero-float float-2"></div>
+    <div class="hero-float float-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        <span>Majelis Perwakilan Kelas · SMKN 1 Bantul</span>
+      </div>
+
+      <!-- GANTI HERO TITLE DISINI -->
+      <h1 class="hero-title reveal reveal-delay-1">
+        Membangun<br/>
+        <em>Generasi</em> Aktif,<br/>
+        Kritis, dan<br/>
+        Berintegritas
+      </h1>
+
+      <!-- GANTI HERO SUBTITLE DISINI -->
+      <p class="hero-subtitle reveal reveal-delay-2">
+        MPK SMK Negeri 1 Bantul menjadi wadah aspirasi siswa untuk membangun lingkungan sekolah yang modern, disiplin, dan penuh kontribusi.
+      </p>
+
+      <div class="hero-btns reveal reveal-delay-3">
+        <a href="#tentang" class="btn-primary">Kenali Kami <i class="ri-arrow-right-line"></i></a>
+        <a href="#struktur" class="btn-ghost">Lihat Struktur</a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+
+    <!-- Hero year watermark -->
+    <div class="hero-watermark">MPK 2025/2026</div>
+  </section>
+
+  <!-- ======================== STATISTIC SECTION ======================== -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+
+        <!-- GANTI DATA STATISTIK DISINI -->
+        <div class="stat-card reveal">
+          <div class="stat-icon"><i class="ri-group-line"></i></div>
+          <!-- GANTI ANGKA ANGGOTA DISINI -->
+          <div class="stat-num" data-target="16">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Anggota</div>
+        </div>
+
+        <div class="stat-card reveal reveal-delay-1">
+          <div class="stat-icon"><i class="ri-calendar-event-line"></i></div>
+          <!-- GANTI ANGKA KEGIATAN DISINI -->
+          <div class="stat-num" data-target="8">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Kegiatan</div>
+        </div>
+
+        <div class="stat-card reveal reveal-delay-2">
+          <div class="stat-icon"><i class="ri-time-line"></i></div>
+          <!-- GANTI TAHUN BERDIRI DISINI -->
+          <div class="stat-year">2018</div>
+          <div class="stat-label">Berdiri Sejak</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== ABOUT SECTION ======================== -->
+  <section id="tentang" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-image-wrap reveal">
+          <!-- GANTI LOGO ORGANISASI DISINI -->
+          <img src="https://i.ibb.co.com/QjbQJP2J/download-11.png" alt="Logo Organisasi MPK">
+          <div class="about-img-badge">MPK</div>
+        </div>
+
+        <div class="about-content reveal reveal-delay-1">
+          <div class="section-label">Tentang Kami</div>
+          <!-- GANTI JUDUL TENTANG DISINI -->
+          <h2 class="section-title">Organisasi <em>Perwakilan</em><br/>Siswa Terdepan</h2>
+
+          <!-- GANTI DESKRIPSI ORGANISASI DISINI -->
+          <p class="about-desc">
+            Majelis Perwakilan Kelas (MPK) SMK Negeri 1 Bantul adalah lembaga perwakilan siswa tertinggi di sekolah yang bertugas sebagai jembatan antara siswa dan pihak sekolah dalam menyalurkan aspirasi, mengawasi kegiatan OSIS, dan membangun budaya sekolah yang positif.
+          </p>
+          <p class="about-desc">
+            Kami hadir untuk memastikan setiap suara siswa didengar, setiap aspirasi ditindaklanjuti, dan setiap program berjalan dengan penuh integritas dan tanggung jawab.
+          </p>
+
+          <div class="about-tags">
+            <span class="tag">Integritas</span>
+            <span class="tag">Aspirasi</span>
+            <span class="tag">Kolaborasi</span>
+            <span class="tag">Inovasi</span>
+          </div>
+
+          <a href="#struktur" class="btn-primary">Lihat Struktur Kami <i class="ri-arrow-right-line"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== VISI MISI SECTION ======================== -->
+  <section id="visi-misi" class="visi-misi-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Landasan Kami</div>
+        <h2 class="section-title">Visi &amp; <em>Misi</em></h2>
+      </div>
+
+      <div class="vm-grid">
+
+        <!-- GANTI VISI DISINI -->
+        <div class="vm-card visi-card reveal">
+          <div class="vm-icon"><i class="ri-eye-line"></i></div>
+          <div class="vm-label">VISI</div>
+          <!-- GANTI TEKS VISI DISINI -->
+          <h3 class="vm-title">"Terwujudnya MPK yang Aktif, Kritis, dan Berintegritas"</h3>
+          <p class="vm-desc">
+            Menjadi lembaga perwakilan siswa yang mampu menjadi suara kebenaran, penggerak perubahan positif, dan penjaga nilai-nilai kebangsaan di lingkungan SMK Negeri 1 Bantul.
+          </p>
+          <div class="vm-deco"></div>
+        </div>
+
+        <!-- GANTI MISI DISINI -->
+        <div class="vm-card misi-card reveal reveal-delay-1">
+          <div class="vm-icon"><i class="ri-focus-3-line"></i></div>
+          <div class="vm-label">MISI</div>
+          <!-- GANTI TEKS MISI DISINI -->
+          <div class="misi-list">
+            <div class="misi-item">
+              <span class="misi-num">01</span>
+              <p>Menyalurkan aspirasi siswa secara demokratis dan bertanggung jawab.</p>
+            </div>
+            <div class="misi-item">
+              <span class="misi-num">02</span>
+              <p>Mengawasi dan mengevaluasi kinerja OSIS sesuai program yang telah ditetapkan.</p>
+            </div>
+            <div class="misi-item">
+              <span class="misi-num">03</span>
+              <p>Membangun budaya sekolah yang disiplin, berprestasi, dan berkarakter.</p>
+            </div>
+            <div class="misi-item">
+              <span class="misi-num">04</span>
+              <p>Menjalin komunikasi yang efektif antara siswa dan pihak sekolah.</p>
+            </div>
+            <div class="misi-item">
+              <span class="misi-num">05</span>
+              <p>Mendukung pengembangan potensi siswa di bidang akademik dan non-akademik.</p>
+            </div>
+          </div>
+          <div class="vm-deco"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== STRUKTUR ORGANISASI ======================== -->
+  <section id="struktur" class="struktur-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Kepengurusan</div>
+        <h2 class="section-title">Struktur <em>Organisasi</em></h2>
+        <p class="section-desc">Pengurus MPK SMK Negeri 1 Bantul periode 2024/2025 yang berdedikasi melayani dan memperjuangkan aspirasi seluruh siswa.</p>
+      </div>
+
+      <!-- INTI ORGANISASI -->
+      <div class="struktur-block">
+        <div class="struktur-block-title">Inti Organisasi</div>
+        <div class="inti-grid">
+
+          <!-- START KETUA -->
+          <div class="member-card ketua-card reveal">
+            <div class="member-photo-wrap">
+              <!-- GANTI FOTO KETUA DISINI: Uncomment baris dibawah dan ganti src dengan path foto Anda -->
+              <img src="https://i.ibb.co.com/BK7mwC5r/sigit.jpg" alt="Foto Ketua"> 
+              <div class="photo-placeholder"><i class="ri-user-line"></i></div>
+              <div class="member-photo-frame"></div>
+            </div>
+            <!-- GANTI NAMA KETUA DISINI -->
+            <h3 class="member-name">SIGIT NURROHMAN</h3>
+            <!-- GANTI JABATAN KETUA DISINI -->
+            <div class="member-position">Ketua MPK</div>
+            <!-- GANTI DESKRIPSI KETUA DISINI -->
+            <p class="member-desc">Memimpin dan mengkoordinasikan seluruh kegiatan MPK, mewakili suara siswa dalam forum resmi, serta memastikan program kerja berjalan sesuai visi dan misi organisasi.</p>
+          </div>
+          <!-- END KETUA -->
+
+          <!-- START SEKRETARIS -->
+          <div class="member-card reveal reveal-delay-1">
+            <div class="member-photo-wrap">
+              <!-- GANTI FOTO SEKRETARIS DISINI: Uncomment baris dibawah dan ganti src dengan path foto Anda -->
+              <!-- <img src="images/sekretaris.jpg" alt="Foto Sekretaris"> -->
+              <div class="photo-placeholder"><i class="ri-user-line"></i></div>
+              <div class="member-photo-frame"></div>
+            </div>
+            <!-- GANTI NAMA SEKRETARIS DISINI -->
+            <h3 class="member-name">VERA AGUSTINA WAHYU P.S</h3>
+            <!-- GANTI JABATAN SEKRETARIS DISINI -->
+            <div class="member-position">Sekretaris</div>
+            <!-- GANTI DESKRIPSI SEKRETARIS DISINI -->
+            <p class="member-desc">Mengelola administrasi organisasi, mencatat setiap rapat dan keputusan, serta memastikan dokumentasi seluruh kegiatan MPK tersimpan dengan baik.</p>
+          </div>
+          <!-- END SEKRETARIS -->
+
+          <!-- START BENDAHARA -->
+          <div class="member-card reveal reveal-delay-2">
+            <div class="member-photo-wrap">
+              <!-- GANTI FOTO BENDAHARA DISINI: Uncomment baris dibawah dan ganti src dengan path foto Anda -->
+              <img src="https://i.ibb.co.com/SDxM3HPP/Avissa.jpg" alt="Foto Bendahara">
+              <div class="photo-placeholder"><i class="ri-user-line"></i></div>
+              <div class="member-photo-frame"></div>
+            </div>
+            <!-- GANTI NAMA BENDAHARA DISINI -->
+            <h3 class="member-name">AVISSA ANINDYA ANJANI</h3>
+            <!-- GANTI JABATAN BENDAHARA DISINI -->
+            <div class="member-position">Bendahara</div>
+            <!-- GANTI DESKRIPSI BENDAHARA DISINI -->
+            <p class="member-desc">Mengelola keuangan organisasi secara transparan dan bertanggung jawab, membuat laporan keuangan rutin, serta mengawasi penggunaan anggaran setiap program kerja.</p>
+          </div>
+          <!-- END BENDAHARA -->
+
+        </div>
+      </div>
+
+      <!-- PUBLIKASI & DOKUMENTASI -->
+      <div class="struktur-block">
+        <div class="struktur-block-title">Publikasi &amp; Dokumentasi</div>
+        <div class="komisi-grid">
+
+          <!-- START PUBLIKASI 1 -->
+          <div class="komisi-card reveal">
+            <div class="komisi-header">
+              <div class="komisi-badge">1</div>
+              <div>
+                <div class="komisi-title">Publikasi</div>
+                <div class="komisi-subtitle">Konten &amp; Media</div>
+              </div>
+            </div>
+            <div class="komisi-divs">
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO PUBLIKASI 1 DISINI -->
+                <!-- <img src="images/publikasi1.jpg" alt="Foto"> -->
+                <div class="div-photo"><i class="ri-user-smile-line"></i></div>
+                <div class="div-info">
+                  <!-- GANTI NAMA PUBLIKASI 1 DISINI -->
+                  <div class="div-name">BINTANG ZALFA KHAERUNNISA</div>
+                  <!-- GANTI JABATAN PUBLIKASI 1 DISINI -->
+                  <div class="div-pos">Publikasi 1</div>
+                  <!-- GANTI DESKRIPSI PUBLIKASI 1 DISINI -->
+                  <div class="div-desc">Merancang konten kreatif dan media visual, mendokumentasikan seluruh kegiatan MPK, serta mengelola identitas visual dan komunikasi digital organisasi.</div>
+                </div>
+              </div>
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO PUBLIKASI 2 DISINI -->
+                <div class="div-photo">
+                  <img src="https://i.ibb.co.com/H0VKGhX/Rehan.jpg" alt="Foto">
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA PUBLIKASI 2 DISINI -->
+                  <div class="div-name">REHAN FADILAH ERLAMBANG</div>
+                  <!-- GANTI JABATAN PUBLIKASI 2 DISINI -->
+                  <div class="div-pos">Publikasi 2</div>
+                  <!-- GANTI DESKRIPSI PUBLIKASI 2 DISINI -->
+                  <div class="div-desc">Merancang konten kreatif dan media visual, mendokumentasikan seluruh kegiatan MPK, serta mengelola identitas visual dan komunikasi digital organisasi.</div>
+                </div>
+              </div>
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO PUBLIKASI 3 DISINI: Uncomment <img> di bawah -->
+                <div class="div-photo">
+                  <!-- <img src="images/publikasi3.jpg" alt="Foto"> -->
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA PUBLIKASI 3 DISINI -->
+                  <div class="div-name">NADINE CAHYA KAMILA</div>
+                  <!-- GANTI JABATAN PUBLIKASI 3 DISINI -->
+                  <div class="div-pos">Publikasi 3</div>
+                  <!-- GANTI DESKRIPSI PUBLIKASI 3 DISINI -->
+                  <div class="div-desc">Merancang konten kreatif dan media visual, mendokumentasikan seluruh kegiatan MPK, serta mengelola identitas visual dan komunikasi digital organisasi.</div>
+                </div>
+              </div>
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO PUBLIKASI 4 DISINI: Uncomment <img> di bawah -->
+                <div class="div-photo">
+                  <!-- <img src="images/publikasi4.jpg" alt="Foto"> -->
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA PUBLIKASI 4 DISINI -->
+                  <div class="div-name">NAURA ZALFA KHAIRUNNISA</div>
+                  <!-- GANTI JABATAN PUBLIKASI 4 DISINI -->
+                  <div class="div-pos">Publikasi 4</div>
+                  <!-- GANTI DESKRIPSI PUBLIKASI 4 DISINI -->
+                  <div class="div-desc">Merancang konten kreatif dan media visual, mendokumentasikan seluruh kegiatan MPK, serta mengelola identitas visual dan komunikasi digital organisasi.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- END PUBLIKASI -->
+
+        </div>
+      </div>
+
+      <!-- HUMAS -->
+      <div class="struktur-block">
+        <div class="struktur-block-title">Humas</div>
+        <div class="komisi-grid">
+
+          <!-- START HUMAS -->
+          <div class="komisi-card reveal">
+            <div class="komisi-header">
+              <div class="komisi-badge">-</div>
+              <div>
+                <div class="komisi-title">Humas</div>
+                <div class="komisi-subtitle">Hubungan Masyarakat</div>
+              </div>
+            </div>
+            <div class="komisi-divs">
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO HUMAS 1 DISINI: Uncomment <img> di bawah -->
+                <div class="div-photo">
+                  <!-- <img src="images/humas1.jpg" alt="Foto"> -->
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA HUMAS 1 DISINI -->
+                  <div class="div-name">HASAN NUR ADHI W</div>
+                  <!-- GANTI JABATAN HUMAS 1 DISINI -->
+                  <div class="div-pos">Humas 1</div>
+                  <!-- GANTI DESKRIPSI HUMAS 1 DISINI -->
+                  <div class="div-desc">Menjalin hubungan komunikasi antara MPK dengan seluruh warga sekolah, instansi luar, dan mitra organisasi untuk memperluas jaringan dan kolaborasi.</div>
+                </div>
+              </div>
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO HUMAS 2 DISINI -->
+                <div class="div-photo">
+                  <img src="https://i.ibb.co.com/Rk4XWMXs/Habsah.jpg" alt="Foto">
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA HUMAS 2 DISINI -->
+                  <div class="div-name">HABSAH FARA DIAH</div>
+                  <!-- GANTI JABATAN HUMAS 2 DISINI -->
+                  <div class="div-pos">Humas 2</div>
+                  <!-- GANTI DESKRIPSI HUMAS 2 DISINI -->
+                  <div class="div-desc">Menjalin hubungan komunikasi antara MPK dengan seluruh warga sekolah, instansi luar, dan mitra organisasi untuk memperluas jaringan dan kolaborasi.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- END HUMAS -->
+
+        </div>
+      </div>
+
+      <!-- KOMISI -->
+      <div class="struktur-block">
+        <div class="struktur-block-title">Komisi</div>
+        <div class="komisi-grid">
+
+          <!-- START KOMISI A -->
+          <div class="komisi-card reveal">
+            <div class="komisi-header">
+              <div class="komisi-badge">A</div>
+              <div>
+                <!-- GANTI NAMA KOMISI A DISINI -->
+                <div class="komisi-title">Komisi A</div>
+                <div class="komisi-subtitle">Ketaqwaan</div>
+              </div>
+            </div>
+            <div class="komisi-divs">
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO KOMISI A - ISLAMI DISINI: Uncomment <img> di bawah -->
+                <div class="div-photo">
+                  <!-- <img src="images/komisi-a-islami.jpg" alt="Foto"> -->
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA KOMISI A ISLAMI DISINI -->
+                  <div class="div-name">RAHMA PUTRI WICAKSONO</div>
+                  <!-- GANTI JABATAN KOMISI A ISLAMI DISINI -->
+                  <div class="div-pos">Ketaqwaan Islami</div>
+                  <!-- GANTI DESKRIPSI KOMISI A ISLAMI DISINI -->
+                  <div class="div-desc">Membina kegiatan keagamaan Islam, memfasilitasi pengajian, PHBI, serta menguatkan nilai-nilai Islami di lingkungan sekolah.</div>
+                </div>
+              </div>
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO KOMISI A - KRISTIANI DISINI: Uncomment <img> di bawah -->
+                <div class="div-photo">
+                  <!-- <img src="images/komisi-a-kristiani.jpg" alt="Foto"> -->
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA KOMISI A KRISTIANI DISINI -->
+                  <div class="div-name">CHRISTIAN ABBET NEGO</div>
+                  <!-- GANTI JABATAN KOMISI A KRISTIANI DISINI -->
+                  <div class="div-pos">Ketaqwaan Kristiani</div>
+                  <!-- GANTI DESKRIPSI KOMISI A KRISTIANI DISINI -->
+                  <div class="div-desc">Membina kegiatan keagamaan Kristen, memfasilitasi ibadah, PHKB, serta menguatkan nilai-nilai Kristiani di lingkungan sekolah.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- END KOMISI A -->
+
+          <!-- START KOMISI B -->
+          <div class="komisi-card reveal reveal-delay-1">
+            <div class="komisi-header">
+              <div class="komisi-badge">B</div>
+              <div>
+                <!-- GANTI NAMA KOMISI B DISINI -->
+                <div class="komisi-title">Komisi B</div>
+                <div class="komisi-subtitle">Seni &amp; Wirausaha</div>
+              </div>
+            </div>
+            <div class="komisi-divs">
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO KOMISI B - SENI DISINI: Uncomment <img> di bawah -->
+                <div class="div-photo">
+                  <!-- <img src="images/komisi-b-seni.jpg" alt="Foto"> -->
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA KOMISI B SENI DISINI -->
+                  <div class="div-name">DIVA ARRUM SALSABILA</div>
+                  <!-- GANTI JABATAN KOMISI B SENI DISINI -->
+                  <div class="div-pos">Apresiasi Seni</div>
+                  <!-- GANTI DESKRIPSI KOMISI B SENI DISINI -->
+                  <div class="div-desc">Mengembangkan kreativitas siswa melalui kegiatan seni dan apresiasi budaya sekolah seperti pentas seni, pameran, dan lomba kreasi.</div>
+                </div>
+              </div>
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO KOMISI B - KEWIRAUSAHAAN DISINI -->
+                <div class="div-photo">
+                  <img src="https://i.ibb.co.com/vvj3KXfc/Izza.jpg" alt="Foto">
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA KOMISI B WIRAUSAHA DISINI -->
+                  <div class="div-name">IZZA AMBARAWATI</div>
+                  <!-- GANTI JABATAN KOMISI B WIRAUSAHA DISINI -->
+                  <div class="div-pos">Kewirausahaan</div>
+                  <!-- GANTI DESKRIPSI KOMISI B WIRAUSAHA DISINI -->
+                  <div class="div-desc">Mendorong jiwa wirausaha siswa melalui program pelatihan bisnis, bazar sekolah, dan kolaborasi dengan dunia usaha dan industri.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- END KOMISI B -->
+
+          <!-- START KOMISI C -->
+          <div class="komisi-card reveal reveal-delay-2">
+            <div class="komisi-header">
+              <div class="komisi-badge">C</div>
+              <div>
+                <!-- GANTI NAMA KOMISI C DISINI -->
+                <div class="komisi-title">Komisi C</div>
+                <div class="komisi-subtitle">Bela Negara</div>
+              </div>
+            </div>
+            <div class="komisi-divs">
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO KOMISI C - BELANEGARA DISINI: Uncomment <img> di bawah -->
+                <div class="div-photo">
+                  <!-- <img src="images/komisi-c-belanegara.jpg" alt="Foto"> -->
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA KOMISI C DISINI -->
+                  <div class="div-name">HAIFA AULIA TSAQIF</div>
+                  <!-- GANTI JABATAN KOMISI C DISINI -->
+                  <div class="div-pos">Belanegara</div>
+                  <!-- GANTI DESKRIPSI KOMISI C DISINI -->
+                  <div class="div-desc">Memupuk rasa cinta tanah air, kedisiplinan, dan semangat bela negara melalui kegiatan upacara, PBB, dan wawasan kebangsaan.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- END KOMISI C -->
+
+          <!-- START KOMISI D -->
+          <div class="komisi-card reveal reveal-delay-3">
+            <div class="komisi-header">
+              <div class="komisi-badge">D</div>
+              <div>
+                <!-- GANTI NAMA KOMISI D DISINI -->
+                <div class="komisi-title">Komisi D</div>
+                <div class="komisi-subtitle">Jasmani</div>
+              </div>
+            </div>
+            <div class="komisi-divs">
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO KOMISI D - JASMANI DISINI: Uncomment <img> di bawah -->
+                <div class="div-photo">
+                  <!-- <img src="images/komisi-d-jasmani.jpg" alt="Foto"> -->
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA KOMISI D DISINI -->
+                  <div class="div-name">FERY WIDHI YASTUTI</div>
+                  <!-- GANTI JABATAN KOMISI D DISINI -->
+                  <div class="div-pos">Jasmani</div>
+                  <!-- GANTI DESKRIPSI KOMISI D DISINI -->
+                  <div class="div-desc">Mengembangkan prestasi olahraga dan kesehatan jasmani siswa melalui turnamen, senam rutin, dan program gaya hidup sehat di sekolah.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- END KOMISI D -->
+
+          <!-- START KOMISI E -->
+          <div class="komisi-card reveal reveal-delay-4">
+            <div class="komisi-header">
+              <div class="komisi-badge">E</div>
+              <div>
+                <!-- GANTI NAMA KOMISI E DISINI -->
+                <div class="komisi-title">Komisi E</div>
+                <div class="komisi-subtitle">Politik</div>
+              </div>
+            </div>
+            <div class="komisi-divs">
+
+              <div class="komisi-div-item">
+                <!-- GANTI FOTO KOMISI E - POLITIK DISINI: Uncomment <img> di bawah -->
+                <div class="div-photo">
+                  <!-- <img src="images/komisi-e-politik.jpg" alt="Foto"> -->
+                  <i class="ri-user-smile-line"></i>
+                </div>
+                <div class="div-info">
+                  <!-- GANTI NAMA KOMISI E DISINI -->
+                  <div class="div-name">RAHMAT RIDHO KURNIAWAN</div>
+                  <!-- GANTI JABATAN KOMISI E DISINI -->
+                  <div class="div-pos">Politik</div>
+                  <!-- GANTI DESKRIPSI KOMISI E DISINI -->
+                  <div class="div-desc">Mengedukasi siswa tentang demokrasi dan politik yang sehat, mengorganisir pemilihan OSIS, serta mendorong partisipasi aktif dalam kehidupan berorganisasi.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- END KOMISI E -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== PROGRAM KERJA ======================== -->
+  <section id="program" class="program-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Agenda Kami</div>
+        <h2 class="section-title">Program <em>Kerja</em></h2>
+        <p class="section-desc">Serangkaian program unggulan yang dirancang untuk memberdayakan dan mengembangkan potensi seluruh siswa SMK Negeri 1 Bantul.</p>
+      </div>
+
+      <div class="program-grid">
+
+        <!-- START PROGRAM 1 -->
+        <div class="program-card reveal">
+          <!-- GANTI FOTO PROGRAM DISINI -->
+          <!-- <img src="images/program1.jpg" alt="Program"> -->
+          <div class="program-img">
+            <div class="program-img-placeholder"><i class="ri-megaphone-line"></i></div>
+          </div>
+          <!-- GANTI JUDUL PROGRAM DISINI -->
+          <div class="program-content">
+            <div class="program-num">01</div>
+            <h3 class="program-title">Aspirasi Siswa</h3>
+            <!-- GANTI DESKRIPSI PROGRAM DISINI -->
+            <p class="program-desc">Wadah resmi bagi seluruh siswa untuk menyampaikan aspirasi, saran, dan keluhan kepada pihak sekolah melalui mekanisme demokratis yang transparan.</p>
+            <div class="program-arrow"><i class="ri-arrow-right-up-line"></i></div>
+          </div>
+        </div>
+        <!-- END PROGRAM 1 -->
+
+        <!-- START PROGRAM 2 -->
+        <div class="program-card reveal reveal-delay-1">
+          <!-- GANTI FOTO PROGRAM DISINI -->
+          <!-- <img src="images/program2.jpg" alt="Program"> -->
+          <div class="program-img">
+            <div class="program-img-placeholder"><i class="ri-star-line"></i></div>
+          </div>
+          <!-- GANTI JUDUL PROGRAM DISINI -->
+          <div class="program-content">
+            <div class="program-num">02</div>
+            <h3 class="program-title">Event Sekolah</h3>
+            <!-- GANTI DESKRIPSI PROGRAM DISINI -->
+            <p class="program-desc">Perencanaan dan pelaksanaan event-event besar sekolah seperti HUT Sekolah, perayaan hari nasional, dan kegiatan yang melibatkan seluruh warga sekolah.</p>
+            <div class="program-arrow"><i class="ri-arrow-right-up-line"></i></div>
+          </div>
+        </div>
+        <!-- END PROGRAM 2 -->
+
+        <!-- START PROGRAM 3 -->
+        <div class="program-card reveal reveal-delay-2">
+          <!-- GANTI FOTO PROGRAM DISINI -->
+          <!-- <img src="images/program3.jpg" alt="Program"> -->
+          <div class="program-img">
+            <div class="program-img-placeholder"><i class="ri-heart-line"></i></div>
+          </div>
+          <!-- GANTI JUDUL PROGRAM DISINI -->
+          <div class="program-content">
+            <div class="program-num">03</div>
+            <h3 class="program-title">Kegiatan Sosial</h3>
+            <!-- GANTI DESKRIPSI PROGRAM DISINI -->
+            <p class="program-desc">Program bakti sosial, penggalangan dana, dan kunjungan komunitas untuk menumbuhkan empati dan kepedulian sosial di kalangan siswa SMKN 1 Bantul.</p>
+            <div class="program-arrow"><i class="ri-arrow-right-up-line"></i></div>
+          </div>
+        </div>
+        <!-- END PROGRAM 3 -->
+
+        <!-- START PROGRAM 4 -->
+        <div class="program-card reveal reveal-delay-3">
+          <!-- GANTI FOTO PROGRAM DISINI -->
+          <!-- <img src="images/program4.jpg" alt="Program"> -->
+          <div class="program-img">
+            <div class="program-img-placeholder"><i class="ri-palette-line"></i></div>
+          </div>
+          <!-- GANTI JUDUL PROGRAM DISINI -->
+          <div class="program-content">
+            <div class="program-num">04</div>
+            <h3 class="program-title">Kegiatan Seni</h3>
+            <!-- GANTI DESKRIPSI PROGRAM DISINI -->
+            <p class="program-desc">Festival seni dan budaya, pentas kreatif, pameran karya siswa, serta ruang ekspresi bagi talenta seni untuk berkembang dan bersinar.</p>
+            <div class="program-arrow"><i class="ri-arrow-right-up-line"></i></div>
+          </div>
+        </div>
+        <!-- END PROGRAM 4 -->
+
+        <!-- START PROGRAM 5 -->
+        <div class="program-card reveal reveal-delay-1">
+          <!-- GANTI FOTO PROGRAM DISINI -->
+          <!-- <img src="images/program5.jpg" alt="Program"> -->
+          <div class="program-img">
+            <div class="program-img-placeholder"><i class="ri-medal-line"></i></div>
+          </div>
+          <!-- GANTI JUDUL PROGRAM DISINI -->
+          <div class="program-content">
+            <div class="program-num">05</div>
+            <h3 class="program-title">Pengembangan Karakter</h3>
+            <!-- GANTI DESKRIPSI PROGRAM DISINI -->
+            <p class="program-desc">Seminar kepemimpinan, pelatihan public speaking, dan workshop pengembangan diri untuk menciptakan generasi siswa yang berkarakter kuat dan berjiwa pemimpin.</p>
+            <div class="program-arrow"><i class="ri-arrow-right-up-line"></i></div>
+          </div>
+        </div>
+        <!-- END PROGRAM 5 -->
+
+        <!-- START PROGRAM 6 -->
+        <div class="program-card reveal reveal-delay-2">
+          <!-- GANTI FOTO PROGRAM DISINI -->
+          <!-- <img src="images/program6.jpg" alt="Program"> -->
+          <div class="program-img">
+            <div class="program-img-placeholder"><i class="ri-shake-hands-line"></i></div>
+          </div>
+          <!-- GANTI JUDUL PROGRAM DISINI -->
+          <div class="program-content">
+            <div class="program-num">06</div>
+            <h3 class="program-title">Kolaborasi Organisasi</h3>
+            <!-- GANTI DESKRIPSI PROGRAM DISINI -->
+            <p class="program-desc">Membangun sinergi dan kolaborasi antara MPK, OSIS, dan ekstrakurikuler untuk menciptakan ekosistem organisasi sekolah yang kuat dan produktif.</p>
+            <div class="program-arrow"><i class="ri-arrow-right-up-line"></i></div>
+          </div>
+        </div>
+        <!-- END PROGRAM 6 -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== GALERI SECTION ======================== -->
+  <section id="galeri" class="galeri-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Dokumentasi</div>
+        <h2 class="section-title">Galeri <em>Kegiatan</em></h2>
+      </div>
+
+      <div class="galeri-grid">
+
+        <!-- GANTI FOTO GALERI DISINI -->
+        <!-- Ganti src dengan: images/gallery1.jpg, images/gallery2.jpg, dst -->
+
+        <div class="galeri-item galeri-large reveal">
+          <!-- GANTI FOTO GALERI 1 DISINI -->
+          <!-- <img src="images/gallery1.jpg" alt="Galeri 1"> -->
+          <div class="galeri-placeholder"><i class="ri-image-line"></i><span>Foto Kegiatan 1</span></div>
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-content">
+              <!-- GANTI CAPTION GALERI 1 DISINI -->
+              <span>Kegiatan MPK 2024</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="galeri-item reveal reveal-delay-1">
+          <!-- GANTI FOTO GALERI 2 DISINI -->
+          <!-- <img src="images/gallery2.jpg" alt="Galeri 2"> -->
+          <div class="galeri-placeholder"><i class="ri-image-line"></i><span>Foto Kegiatan 2</span></div>
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-content">
+              <!-- GANTI CAPTION GALERI 2 DISINI -->
+              <span>Event Sekolah</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="galeri-item reveal reveal-delay-2">
+          <!-- GANTI FOTO GALERI 3 DISINI -->
+          <!-- <img src="images/gallery3.jpg" alt="Galeri 3"> -->
+          <div class="galeri-placeholder"><i class="ri-image-line"></i><span>Foto Kegiatan 3</span></div>
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-content">
+              <!-- GANTI CAPTION GALERI 3 DISINI -->
+              <span>Bakti Sosial</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="galeri-item reveal reveal-delay-1">
+          <!-- GANTI FOTO GALERI 4 DISINI -->
+          <!-- <img src="images/gallery4.jpg" alt="Galeri 4"> -->
+          <div class="galeri-placeholder"><i class="ri-image-line"></i><span>Foto Kegiatan 4</span></div>
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-content">
+              <!-- GANTI CAPTION GALERI 4 DISINI -->
+              <span>Pentas Seni</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="galeri-item reveal reveal-delay-2">
+          <!-- GANTI FOTO GALERI 5 DISINI -->
+          <!-- <img src="images/gallery5.jpg" alt="Galeri 5"> -->
+          <div class="galeri-placeholder"><i class="ri-image-line"></i><span>Foto Kegiatan 5</span></div>
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-content">
+              <!-- GANTI CAPTION GALERI 5 DISINI -->
+              <span>Rapat MPK</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="galeri-item galeri-large reveal reveal-delay-3">
+          <!-- GANTI FOTO GALERI 6 DISINI -->
+          <!-- <img src="images/gallery6.jpg" alt="Galeri 6"> -->
+          <div class="galeri-placeholder"><i class="ri-image-line"></i><span>Foto Kegiatan 6</span></div>
+          <div class="galeri-overlay">
+            <div class="galeri-overlay-content">
+              <!-- GANTI CAPTION GALERI 6 DISINI -->
+              <span>Upacara Bendera</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== KONTAK SECTION ======================== -->
+  <section id="kontak" class="kontak-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Hubungi Kami</div>
+        <h2 class="section-title">Kontak &amp; <em>Sosial Media</em></h2>
+      </div>
+
+      <div class="kontak-grid">
+
+        <div class="kontak-info reveal">
+          <h3 class="kontak-info-title">Temukan Kami</h3>
+
+          <!-- GANTI INFO KONTAK DISINI -->
+          <div class="kontak-items">
+
+            <a href="https://instagram.com/mpk_smkn1bantul" target="_blank" class="kontak-item">
+              <!-- GANTI LINK INSTAGRAM DISINI -->
+              <div class="kontak-icon"><i class="ri-instagram-line"></i></div>
+              <div>
+                <div class="kontak-platform">Instagram</div>
+                <!-- GANTI USERNAME INSTAGRAM DISINI -->
+                <div class="kontak-handle">@mpk_smkn1bantul</div>
+              </div>
+            </a>
+
+            <a href="https://wa.me/6281234567890" target="_blank" class="kontak-item">
+              <!-- GANTI LINK WHATSAPP DISINI -->
+              <div class="kontak-icon"><i class="ri-whatsapp-line"></i></div>
+              <div>
+                <div class="kontak-platform">WhatsApp</div>
+                <!-- GANTI NOMOR WA DISINI -->
+                <div class="kontak-handle">+62 812-3456-7890</div>
+              </div>
+            </a>
+
+            <a href="mailto:mpk@smkn1bantul.sch.id" class="kontak-item">
+              <!-- GANTI EMAIL DISINI -->
+              <div class="kontak-icon"><i class="ri-mail-line"></i></div>
+              <div>
+                <div class="kontak-platform">Email</div>
+                <!-- GANTI ALAMAT EMAIL DISINI -->
+                <div class="kontak-handle">mpk@smkn1bantul.sch.id</div>
+              </div>
+            </a>
+
+            <div class="kontak-item kontak-address">
+              <!-- GANTI ALAMAT SEKOLAH DISINI -->
+              <div class="kontak-icon"><i class="ri-map-pin-line"></i></div>
+              <div>
+                <div class="kontak-platform">Alamat</div>
+                <!-- GANTI ALAMAT DISINI -->
+                <div class="kontak-handle">Jl. Parangtritis Km. 11, Sabdodadi, Bantul, Yogyakarta 55702</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- FORM KONTAK -->
+        <div class="kontak-form-wrap reveal reveal-delay-1">
+          <h3 class="kontak-info-title">Kirim Aspirasi</h3>
+          <form class="kontak-form" id="kontakForm">
+            <!-- GANTI PLACEHOLDER FORM DISINI -->
+            <div class="form-group">
+              <label>Nama Lengkap</label>
+              <input type="text" placeholder="Masukkan nama Anda..." required />
+            </div>
+            <div class="form-group">
+              <label>Kelas</label>
+              <input type="text" placeholder="Contoh: XII RPL 1" />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="email@example.com" required />
+            </div>
+            <div class="form-group">
+              <label>Pesan / Aspirasi</label>
+              <textarea placeholder="Tulis aspirasi atau pertanyaan Anda..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary form-submit">
+              Kirim Pesan <i class="ri-send-plane-line"></i>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <!-- GANTI LOGO FOOTER DISINI -->
+            <!-- <img src="images/logo.png" alt="Logo MPK" class="footer-logo-img"> -->
+            <div class="footer-logo">
+              <span class="footer-logo-text">MPK</span>
+              <span class="footer-logo-sub">SMKN 1 BANTUL</span>
+            </div>
+            <!-- GANTI DESKRIPSI FOOTER DISINI -->
+            <p class="footer-desc">Majelis Perwakilan Kelas SMK Negeri 1 Bantul — Mewakili, Mengawasi, dan Membangun lingkungan sekolah yang berprestasi dan berkarakter.</p>
+            <div class="footer-socials">
+              <!-- GANTI LINK SOSIAL MEDIA FOOTER DISINI -->
+              <a href="https://instagram.com/mpk_smkn1bantul" target="_blank" class="footer-social"><i class="ri-instagram-line"></i></a>
+              <a href="https://wa.me/6281234567890" target="_blank" class="footer-social"><i class="ri-whatsapp-line"></i></a>
+              <a href="mailto:mpk@smkn1bantul.sch.id" class="footer-social"><i class="ri-mail-line"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <div class="footer-links-title">Navigasi</div>
+            <ul class="footer-links">
+              <!-- GANTI LINK NAVIGASI FOOTER DISINI -->
+              <li><a href="#beranda">Beranda</a></li>
+              <li><a href="#tentang">Tentang</a></li>
+              <li><a href="#visi-misi">Visi &amp; Misi</a></li>
+              <li><a href="#struktur">Struktur Organisasi</a></li>
+              <li><a href="#program">Program Kerja</a></li>
+              <li><a href="#galeri">Galeri</a></li>
+              <li><a href="#kontak">Kontak</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <div class="footer-links-title">Komisi</div>
+            <ul class="footer-links">
+              <!-- GANTI NAMA KOMISI FOOTER DISINI -->
+              <li><a href="#struktur">Komisi A — Ketaqwaan</a></li>
+              <li><a href="#struktur">Komisi B — Seni &amp; Wirausaha</a></li>
+              <li><a href="#struktur">Komisi C — Belanegara</a></li>
+              <li><a href="#struktur">Komisi D — Jasmani</a></li>
+              <li><a href="#struktur">Komisi E — Politik</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <div class="footer-links-title">Info Sekolah</div>
+            <ul class="footer-links">
+              <!-- GANTI INFO SEKOLAH FOOTER DISINI -->
+              <li><a href="#">SMK Negeri 1 Bantul</a></li>
+              <li><a href="#">Periode 2024/2025</a></li>
+              <!-- GANTI ALAMAT DI FOOTER DISINI -->
+              <li><span style="color:var(--gray)">Jl. Parangtritis Km. 11</span></li>
+              <li><span style="color:var(--gray)">Bantul, Yogyakarta</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <!-- GANTI COPYRIGHT DISINI -->
+        <p>&copy; 2024 Majelis Perwakilan Kelas · SMK Negeri 1 Bantul. All rights reserved.</p>
+        <p class="footer-tagline">Aktif · Kritis · Berintegritas</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
